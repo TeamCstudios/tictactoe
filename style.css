@@ -1,0 +1,69 @@
+body
+{
+  background-color: #eeffff;
+  color: #C0C0C0;
+  font-family: sans-serif;
+}
+div.instr
+{
+  font-size: 50pt;
+  text-align: center;
+}
+table.grid
+{
+  border-collapse: collapse
+}
+table.grid tr td
+{
+  border: 8pt solid #FF0000;
+  text-align: center;
+  color: #088A29;
+  font-size: 90pt;
+  width: 150px;
+  height: 150px;
+}
+td#R1C1
+{
+  border-top: none;
+  border-left: none;
+}
+td#R1C2
+{
+  border-top: none;
+}
+td#R1C3
+{
+  border-top: none;
+  border-right: none;
+}
+td#R3C2
+{
+  border-bottom: none;
+}
+td#R3C3
+{
+  border-bottom: none;
+  border-right: none;
+}
+td#R2C1
+{
+  border-left: none;
+}
+td#R2C3
+{
+  border-right: none;
+}
+td#R3C1
+{
+  border-bottom: none;
+  border-left: none;
+}
+div.move 
+{
+font-size: 90pt;
+
+}
+div. 1
+{
+font-size: 90pt;
+}
