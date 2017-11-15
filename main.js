@@ -33,15 +33,15 @@ val_R3C3 = document.getElementById('R3C3').innerText;
 
 // x winners
  
- if (val_R1C1 == 'X' && val_R1C1 == val_R1C2 && val_R1C2 == val_R1C3) win = 'Y'; 
- if (val_R2C1 == 'X' && val_R2C1 == val_R2C2 && val_R2C2 == val_R2C3) win = 'Y'; 
- if (val_R3C1 == 'X' && val_R3C1 == val_R3C2 && val_R3C2 == val_R3C3) win = 'Y'; 
- if (val_R1C1 == 'X' && val_R1C1 == val_R2C1 && val_R2C1 == val_R3C1) win = 'Y';  
- if (val_R1C2 == 'X' && val_R1C2 == val_R2C2 && val_R2C2 == val_R3C2) win = 'Y'; 
- if (val_R1C3 == 'X' && val_R1C3 == val_R2C3 && val_R2C3 == val_R3C3) win = 'Y';  
- if (val_R1C1 == 'X' && val_R1C1 == val_R2C2 && val_R2C2 == val_R3C3) win = 'Y';  
- if (val_R3C1 == 'X' && val_R3C1 == val_R2C2 && val_R2C2 == val_R1C3) win = 'Y';
- if (win == "Y")
+ if (val_R1C1 == 'X' && val_R1C1 == val_R1C2 && val_R1C2 == val_R1C3) win = 'X'; 
+ if (val_R2C1 == 'X' && val_R2C1 == val_R2C2 && val_R2C2 == val_R2C3) win = 'X'; 
+ if (val_R3C1 == 'X' && val_R3C1 == val_R3C2 && val_R3C2 == val_R3C3) win = 'X'; 
+ if (val_R1C1 == 'X' && val_R1C1 == val_R2C1 && val_R2C1 == val_R3C1) win = 'X';  
+ if (val_R1C2 == 'X' && val_R1C2 == val_R2C2 && val_R2C2 == val_R3C2) win = 'X'; 
+ if (val_R1C3 == 'X' && val_R1C3 == val_R2C3 && val_R2C3 == val_R3C3) win = 'X';  
+ if (val_R1C1 == 'X' && val_R1C1 == val_R2C2 && val_R2C2 == val_R3C3) win = 'X';  
+ if (val_R3C1 == 'X' && val_R3C1 == val_R2C2 && val_R2C2 == val_R1C3) win = 'X';
+ if (win == "X")
  {
  window.location = 'https://teamcstudios.pro/tictactoe/xwins'; 
  }  
