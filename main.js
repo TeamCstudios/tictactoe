@@ -43,7 +43,7 @@ val_R3C3 = document.getElementById('R3C3').innerText;
  if (val_R3C1 == 'X' && val_R3C1 == val_R2C2 && val_R2C2 == val_R1C3) win = 'Y';
  if (win == "Y")
  {
- alert ("x wins");
+ window.location = teamcstudios.pro/tictactoe/xwins; 
  }  
  
  // y winners
@@ -57,7 +57,7 @@ val_R3C3 = document.getElementById('R3C3').innerText;
  if (val_R3C1 == 'O' && val_R3C1 == val_R2C2 && val_R2C2 == val_R1C3) win = 'Y';  
  if (win == "Y")
  {
- alert ("o wins");
+window.location = teamcstudios.pro/tictactoe/owins; 
  }
  
  
