@@ -10,7 +10,7 @@ div.instr {
 }
 
 table.grid {
-  border-collapse: collapse
+  border-collapse: collapse;
 }
 
 table.grid tr td {
