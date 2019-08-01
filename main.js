@@ -39,7 +39,7 @@ function proc_clicked(R, C) {
   if (val_R1C1 == 'X' && val_R1C1 == val_R2C2 && val_R2C2 == val_R3C3) win = 'X';
   if (val_R3C1 == 'X' && val_R3C1 == val_R2C2 && val_R2C2 == val_R1C3) win = 'X';
   if (win == "X") {
-    window.location = 'https://teamcstudios.site/tictactoe/xwins';
+    window.location = 'https://teamcstudios.pw/tictactoe/xwins';
   }
 
   // y winners
@@ -52,7 +52,7 @@ function proc_clicked(R, C) {
   if (val_R1C1 == 'O' && val_R1C1 == val_R2C2 && val_R2C2 == val_R3C3) win = 'Y';
   if (val_R3C1 == 'O' && val_R3C1 == val_R2C2 && val_R2C2 == val_R1C3) win = 'Y';
   if (win == "Y") {
-    window.location = 'https://teamcstudios.site/tictactoe/owins';
+    window.location = 'https://teamcstudios.pw/tictactoe/owins';
   }
 }
 
